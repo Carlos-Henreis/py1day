@@ -1,0 +1,45 @@
+site_name: Py1day
+site_description: Projeto com desafios diários de Python para praticar suas habilidades de programação
+site_url: https://py1day.cahenre.com.br
+repo_name: Carlos-Henreis/py1day
+repo_url: https://github.com/Carlos-Henreis/py1day
+
+theme:
+  name: material
+  favicon: assets/images/favicon.ico
+  icon:
+    logo: material/language-python
+    repo: fontawesome/brands/git-alt
+  palette:
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
+  features:
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - navigation.top
+markdown_extensions:
+  - pymdownx.details
+  - pymdownx.keys
+  - attr_list
+  - toc:
+      toc_depth: 0
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+
+extra_css:
+  - assets/css/extra.css
+plugins:
+  - search
+  - markdown-exec
