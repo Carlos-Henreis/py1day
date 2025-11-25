@@ -17,6 +17,9 @@ hide:
 -   ## Questão 001
     Estruturas de Repetição (Python)  
     [:arrow_right: Ver questão](questoes/001-estrutura-de-repeticao.md)
+-   ## Questão 002
+    Operações Mistas  
+    [:arrow_right: Ver questão](questoes/002-operacoes-mistas.md)
 
 </div>
 
