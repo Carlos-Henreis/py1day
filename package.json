@@ -1,0 +1,7 @@
+{
+  "name": "py1day",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdocs build --clean"
+  }
+}
