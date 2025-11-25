@@ -20,8 +20,12 @@ hide:
 -   ## Questão 002
     Operações Mistas  
     [:arrow_right: Ver questão](questoes/002-operacoes-mistas.md)
+-   ## Questão 002
+    Listas (Python)  
+    [:arrow_right: Ver questão](questoes/003-listas.md)
 
 </div>
+
 
 ## Sobre o projeto
 
