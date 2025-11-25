@@ -23,6 +23,9 @@ hide:
 -   ## Questão 003
     Listas (Python)  
     [:arrow_right: Ver questão](questoes/003-listas.md)
+-   ## Questão 004
+    Métodos e Classes    
+    [:arrow_right: Ver questão](questoes/004-metodos-classes.md)
 
 </div>
 
