@@ -12,21 +12,11 @@ hide:
 ---
 
 ## Questões recentes
-<div class="grid cards" markdown>
-
--   ## Questão 001
-    Estruturas de Repetição (Python)  
-    [:arrow_right: Ver questão](questoes/001-estrutura-de-repeticao.md)
--   ## Questão 002
-    Operações Mistas  
-    [:arrow_right: Ver questão](questoes/002-operacoes-mistas.md)
--   ## Questão 003
-    Listas (Python)  
-    [:arrow_right: Ver questão](questoes/003-listas.md)
--   ## Questão 004
-    Métodos e Classes    
-    [:arrow_right: Ver questão](questoes/004-metodos-classes.md)
-
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
 </div>
 
 

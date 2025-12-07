@@ -1,5 +1,65 @@
 .md-button.wrong {
-  background-color: #ffdddd !important;
-  color: #b00020 !important;
-  border: 1px solid #b00020 !important;
+    background-color: #ffdddd !important;
+    color: #b00020 !important;
+    border: 1px solid #b00020 !important;
+}
+
+
+.mySwiper {
+    width: 100%;
+    padding-bottom: 2.5rem;
+}
+
+.swiper-wrapper {
+    height: auto;
+    display: flex;
+    align-items: stretch;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.swiper-slide {
+    background-color: var(--md-default-bg-color);
+    border: 1px solid var(--md-typeset-table-color);
+    border-radius: 0.2rem;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.swiper-slide h2 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.swiper-slide a {
+    color: var(--md-typeset-a-color);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.swiper-slide a .twemoji {
+    margin-right: 0.25rem;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--md-default-fg-color) !important;
+    top: 50%;
+    transform: translateY(-50%);
+    --swiper-navigation-size: 1.5rem;
+}
+
+.swiper-pagination {
+    bottom: 0 !important;
+    position: inherit !important;
+}
+
+.swiper-pagination-bullet {
+    background: var(--md-typeset-table-color);
+    opacity: 0.8;
 }

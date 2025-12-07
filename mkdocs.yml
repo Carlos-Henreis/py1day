@@ -40,6 +40,13 @@ markdown_extensions:
 
 extra_css:
   - assets/css/extra.css
+  - https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css
+
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js
+  - assets/js/recentes-carousel.js
+
 plugins:
   - search
   - markdown-exec
