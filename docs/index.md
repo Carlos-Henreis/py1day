@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Py1day
+# [@Py1day](https://x.com/Py1Day)
 
 > Uma questão de Python por dia.  
 > Prática constante, evolução consistente.
@@ -22,7 +22,7 @@ hide:
 
 ## Sobre o projeto
 
-Este site reúne todas as questões do Py1day, cada uma composta por:
+Este site reúne todas as questões do [@Py1day](https://x.com/Py1Day), cada uma composta por:
 
 - Enunciado
 - Resultado esperado
