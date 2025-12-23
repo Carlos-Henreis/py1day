@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Py1day
+# [@Py1day](https://x.com/Py1Day)
 
 > Uma questão de Python por dia.  
 > Prática constante, evolução consistente.
@@ -12,30 +12,35 @@ hide:
 ---
 
 ## Questões recentes
-<div class="grid cards" markdown>
-
--   ## Questão 001
-    Estruturas de Repetição (Python)  
-    [:arrow_right: Ver questão](questoes/001-estrutura-de-repeticao.md)
--   ## Questão 002
-    Operações Mistas  
-    [:arrow_right: Ver questão](questoes/002-operacoes-mistas.md)
--   ## Questão 003
-    Listas (Python)  
-    [:arrow_right: Ver questão](questoes/003-listas.md)
--   ## Questão 004
-    Métodos e Classes    
-    [:arrow_right: Ver questão](questoes/004-metodos-classes.md)
-
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
 </div>
 
+---
 
 ## Sobre o projeto
 
-Este site reúne todas as questões do Py1day, cada uma composta por:
+Este site reúne todas as questões do [@Py1day](https://x.com/Py1Day), cada uma composta por:
 
 - Enunciado
 - Resultado esperado
 - Explicação breve
+- Ambiente interativo para testar o código (Pyodide)
 
-Acesse todas as questões pelo menu lateral.
+---
+## Lista de questões
+
+```python exec="true"
+from pathlib import Path
+
+base = Path("docs/questoes")
+files = sorted(base.glob("*.md"))
+
+for f in files:
+    if f.name != "index.md":
+        name = f.stem.replace("-", " ").title()
+        print(f"- [{name}](questoes/{f.stem}/)")
+```

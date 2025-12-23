@@ -32,17 +32,17 @@ Qual será a saída exibida?
 ??? info "Clique para revelar a resposta"
     A resposta correta é: **B) 4**
 
-**Explicação:**
+    **Explicação:**
 
-`nums.append(nums)` adiciona **a própria lista como elemento dentro dela**, criando uma referência circular.
-Mas isso **não gera erro**.
-A nova lista fica assim:
+    `nums.append(nums)` adiciona **a própria lista como elemento dentro dela**, criando uma referência circular.
+    Mas isso **não gera erro**.
+    A nova lista fica assim:
 
-```
-[1, 2, 3, [...]]
-```
+    ```
+    [1, 2, 3, [...]]
+    ```
 
-Ou seja: **4 elementos**.
+    Ou seja: **4 elementos**.
 
 ---
 

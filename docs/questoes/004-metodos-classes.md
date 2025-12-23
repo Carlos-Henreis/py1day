@@ -39,14 +39,15 @@ Qual será a saída exibida?
 ??? info "Clique para revelar a resposta"
     A resposta correta é: **C) 20**
 
-**Explicação:**
-O método `duplica()` multiplica o atributo `valor` por 2.
+    **Explicação:**
+    
+    O método `duplica()` multiplica o atributo `valor` por 2.
 
-Fluxo:
+    Fluxo:
 
-* valor inicial = 10
-* depois de `duplica()`: 20
-* `print()` imprime **20**
+    * valor inicial = 10
+    * depois de `duplica()`: 20
+    * `print()` imprime **20**
 
 ---
 
