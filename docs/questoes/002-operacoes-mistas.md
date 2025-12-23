@@ -30,17 +30,18 @@ Qual será a saída exibida?
 ??? info "Clique para revelar a resposta"
     A resposta correta é: **D) Error**
 
-**Explicação:**
-Python **não permite** somar números inteiros (`int`) com textos (`str`).
-Na expressão:
+    **Explicação:**
+    
+    Python **não permite** somar números inteiros (`int`) com textos (`str`).
+    Na expressão:
 
-```python
-12 + "23"
-```
+    ```python
+    12 + "23"
+    ```
 
-ocorre um `TypeError: unsupported operand type(s) for +: 'int' and 'str'`.
+    ocorre um `TypeError: unsupported operand type(s) for +: 'int' and 'str'`.
 
-Assim, o programa **não chega** a avaliar o restante da expressão.
+    Assim, o programa **não chega** a avaliar o restante da expressão.
 
 ---
 
