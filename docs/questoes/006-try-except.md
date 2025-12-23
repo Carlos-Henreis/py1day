@@ -36,16 +36,17 @@ Qual será a saída exibida no console?
 ??? info "Clique para revelar a resposta"
     A resposta correta é: **B)** 🎯
 
-**Explicação:**
-`int("10a")` gera uma exceção **ValueError** pois a string não é um número válido.
-O Python não executa o `print()` dentro do `try`, mas executa o `except` e SEMPRE executa o `finally`.
+    **Explicação:**
+    
+    `int("10a")` gera uma exceção **ValueError** pois a string não é um número válido.
+    O Python não executa o `print()` dentro do `try`, mas executa o `except` e SEMPRE executa o `finally`.
 
-Saída final:
+    Saída final:
 
-```
-Erro!
-Fim!
-```
+    ```
+    Erro!
+    Fim!
+    ```
 
 ---
 

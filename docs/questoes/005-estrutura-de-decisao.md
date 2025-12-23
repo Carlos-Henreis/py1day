@@ -40,13 +40,13 @@ else:
 ??? info "Clique para revelar a resposta"
     A resposta correta é: **B) Beta**
 
-**Explicação:**
+    **Explicação:**
 
-* A condição `a > b and a < c` é verdadeira, pois `7 > 3` e `7 < 10`.
-* Entramos no primeiro bloco `if`.
-* Em seguida, verificamos `a % 2 == 0`.
-* `7 % 2 == 1`, logo `a` é **ímpar** → cai no `else`.
-* Portanto, a saída enviada ao console é **"Beta"**.
+    * A condição `a > b and a < c` é verdadeira, pois `7 > 3` e `7 < 10`.
+    * Entramos no primeiro bloco `if`.
+    * Em seguida, verificamos `a % 2 == 0`.
+    * `7 % 2 == 1`, logo `a` é **ímpar** → cai no `else`.
+    * Portanto, a saída enviada ao console é **"Beta"**.
 
 ---
 
