@@ -19,6 +19,7 @@ hide:
     <div class="swiper-pagination"></div>
 </div>
 
+---
 
 ## Sobre o projeto
 
@@ -27,5 +28,19 @@ Este site reúne todas as questões do [@Py1day](https://x.com/Py1Day), cada uma
 - Enunciado
 - Resultado esperado
 - Explicação breve
+- Ambiente interativo para testar o código (Pyodide)
 
-Acesse todas as questões pelo menu lateral.
+---
+## Lista de questões
+
+```python exec="true"
+from pathlib import Path
+
+base = Path("docs/questoes")
+files = sorted(base.glob("*.md"))
+
+for f in files:
+    if f.name != "index.md":
+        name = f.stem.replace("-", " ").title()
+        print(f"- [{name}](questoes/{f.stem}/)")
+```
